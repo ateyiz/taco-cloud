@@ -10,7 +10,7 @@ createdAt timestamp not null);
 
 create table if not exists Taco_Ingredients (
 taco bigint not null,
-ingredient varchar(4) not null;
+ingredient varchar(4) not null);
 
 alter table Taco_Ingredients
 	add foreign key (taco) references Taco(id);

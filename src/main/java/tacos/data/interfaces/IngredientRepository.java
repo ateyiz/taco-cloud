@@ -5,7 +5,7 @@ import tacos.Ingredient;
 public interface IngredientRepository {
 	Iterable<Ingredient> findAll();
 	
-	Ingredient findONe(String id);
+	Ingredient findOne(String id);
 	
 	Ingredient save(Ingredient ingredient);
 
